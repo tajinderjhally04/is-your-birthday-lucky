@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #38bdf8;
+  --secondary-color: #0369a1;
+  --light-color: #e0f2fe;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+}
+
+input,
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+#output-box {
+  text-align: center;
+}
+
+#check-number {
+  display: block;
+  text-align: center;
+  margin: auto;
+  border: 2px solid var(--light-color);
+  border-radius: 5px;
+  padding: 0.4rem;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
